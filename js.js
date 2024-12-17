@@ -4,7 +4,7 @@ if (fiveDigitNumber !== null && !isNaN(fiveDigitNumber) && Number.isInteger(+fiv
     fiveDigitNumber = Math.abs(+fiveDigitNumber);
     let str = fiveDigitNumber.toString();
     if (str.length === 5){
-        let fiveDigitNumberArray = fiveDigitNumber.toString().split('');
+        let fiveDigitNumberArray = str.split('');
         let fiveDigitNumberSrt = fiveDigitNumberArray.join(' ');
         document.getElementById("income").innerHTML = fiveDigitNumber;
         document.getElementById("number").innerHTML = fiveDigitNumberSrt;
