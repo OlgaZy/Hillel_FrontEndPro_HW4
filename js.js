@@ -6,6 +6,8 @@ if (fiveDigitNumber?.trim() && !isNaN(fiveDigitNumber) && Number.isInteger(+five
     if (str.length === 5){
         let fiveDigitNumberArray = str.split('');
         let fiveDigitNumberSrt = fiveDigitNumberArray.join(' ');
+        console.log(fiveDigitNumber);
+        console.log(fiveDigitNumberSrt);
     }
     else{
         alert("It's not a 5-digit number");
